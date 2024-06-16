@@ -2,13 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="./image/Swastika.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wikipedia Starter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>wiki starter</h1>
-    <script src="./app.js"></script>
+      <!-- navbar -->
+       <section class="wiki">
+         <div class="container">
+           <img src="./image/wiki-logo.png" alt="Swastik">
+           <h3>Wikipedia</h3>
+           <form action="" class="form">
+             <input type="text" class="form-input">
+              <button type="submit" class="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+           </form>
+           <div class="results"></div>
+         </div>
+       </section>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
