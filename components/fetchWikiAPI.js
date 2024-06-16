@@ -13,6 +13,7 @@ const fetchPages = async (searchValue) => {
       let results = data.query.search;
       if (results.length < 1) {
          results ='';
+         renderRes('');
          return;
       }
       renderRes(results);
