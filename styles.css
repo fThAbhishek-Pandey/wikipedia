@@ -179,6 +179,36 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+/* navbar  */
+nav{
+  width: 96%;
+  background-color: var(--clr-grey-9);
+  color: var(--grey-900);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  margin: 0rem 1rem 3rem 1rem;
+  top: 0px;
+}
+.img {
+  width: 20rem;
+  height: 36vh;
+  display: block;
+  object-fit: cover;
+  margin: 1rem;
+  justify-self: center;
+}
+.logo-img{
+  width: 36px;
+  height: 36px;
+}
+.lec{
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 /*
 =============== 

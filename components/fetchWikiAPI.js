@@ -12,7 +12,6 @@ const fetchPages = async (searchValue) => {
       const data = await response.json();
       let results = data.query.search;
       if (results.length < 1) {
-         results ='';
          renderRes('');
          return;
       }
